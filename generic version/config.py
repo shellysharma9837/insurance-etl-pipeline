@@ -6,7 +6,9 @@ DATABASE_CONFIG = {
     "password": "Takecare@2025"
 }
 
-CSV_FILE_PATH = '/Users/shellysharma/Downloads/synthetic_insurance_claims.csv'
+CSV_FILE_PATH = '/Users/shellysharma/Downloads/synthetic_insurance_claims.csv'  #Used this file to test incremental load
+#CSV_FILE_PATH = '/Users/shellysharma/Downloads/insurance_claims.csv'
+
 
 TABLE_COLUMN_MAP = {
     'customers': ['months_as_customer', 'age', 'insured_sex', 'insured_education_level',
